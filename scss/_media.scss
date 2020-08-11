@@ -1,7 +1,41 @@
 @media (max-width: 1580px) {
-
-    .hui{
-  margin-left: 100px;
+  .hui {
+    margin-left: 100px;
+  }
 }
-}
 
+@media (max-width: 1330px) {
+  .hui {
+    margin-left: 180px;
+  }
+  .top-line {
+    flex-direction: column;
+    align-items: center;
+    &__phone {
+      margin-top: 50px;
+    }
+  }
+  .header {
+    &_content {
+      margin-top: 70px;
+    }
+  }
+  .navigation {
+    width: 692px;
+  }
+}
+@media (max-width: 1230px) {
+  .slick-slider {
+    display: none;
+  }
+  .header {
+    &_content {
+      justify-content: center;
+    }
+  }
+  .section_2{
+    &-content__right {
+        display: none;
+    }
+  }
+}
